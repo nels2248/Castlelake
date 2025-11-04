@@ -9,7 +9,7 @@ This contains 4 Python scripts, each designed to handle a different data process
 - **1_scrape_blog_links.py** — This goes to https://www.castlelake.com/insights/ and srapes all of the article links.  Uses python beautiful soup package and saves to excel file.  
 - **2_save_html_pages.py** — This reads each specific blog post and saves the .html file in local path.  Did this for quicker processing while developing.
 - **3_read_html_pages_save_ext_date_published.py** — Scrapes the locallly saved .html files and pulls the text out of them them and saves into a new excel.  As with step 3, did this for faster processing during development.  
-- **4_single_line_cluster_over_time.py** — Uses Sklearn to grouop each blog post into 5 different categories
+- **4_single_line_cluster_over_time.py** — Uses Sklearn to group each blog post into 5 different categories
 
 ## Output
 - The final output of running these scripts is saved to an `index.html` file located in the project root directory.
